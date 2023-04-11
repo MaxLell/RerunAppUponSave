@@ -1,0 +1,20 @@
+{
+  "name": "rerunappuponsave",
+  "version": "1.0.0",
+  "description": "This is a cli application which watches for changes in a project directory. If one of the files was saved, the application will rerun the application. It mimiks what the `nodemon` package does, but it is written by myself for learning purposes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Maximilian Lell",
+  "license": "ISC",
+  "bin": {
+    "watchit": "index.js"
+  },
+  "dependencies": {
+    "caporal": "^1.4.0",
+    "chokidar": "^3.5.3",
+    "lodash.debounce": "^4.0.8"
+  }
+}
